@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .header{
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 20px;
+    }
+    .topnav{
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+
+    }
+
+    .column{
+
+        float: left;
+        width: 33.33%;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+    <title>Layout</title>
+</head>
+<body>
+    <div class="header"><h1>Header</h1></div>
+    <div class="topnav">
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+           <a href="#">Link</a> 
+    </div>
+    <div class="row">
+        <div class="column"><h2>column</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione perferendis nam animi expedita nobis
+                 modi unde voluptate velit officia quibusdam est voluptatibus assumenda consequatur dolorum quisquam, neque repellendus corrupti nemo.</p>
+        </div>
+        <div class="column"><h2>column</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione perferendis nam animi expedita nobis
+                 modi unde voluptate velit officia quibusdam est voluptatibus assumenda consequatur dolorum quisquam, neque repellendus corrupti nemo.</p>
+        </div>
+        <div class="column"><h2>column</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione perferendis nam animi expedita nobis
+                 modi unde voluptate velit officia quibusdam est voluptatibus assumenda consequatur dolorum quisquam, neque repellendus corrupti nemo.</p>
+        </div>
+    </div>
+</body>
+</html>

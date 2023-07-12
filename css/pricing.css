@@ -1,0 +1,71 @@
+.block {
+    float:left;
+    width: 100%;
+}
+.container {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+.block-top h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 6px;
+}
+.block-top p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 800px;
+}  
+
+.block-body {
+    padding-top: 30px;
+}
+
+.grid-container {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.card {
+    margin: 20px;
+    border: 1px solid rgb(209, 206, 206);
+    display: block;
+    border-radius: 7px;
+    text-align: center;
+}
+.card h3 {
+    background-color: rgb(185, 187, 189);
+    margin-top: 0;
+    line-height: 60px;
+    width: 250px;
+    border-radius: 6px 6px 0 0;
+}
+.btn {
+    float:left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btn a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 16px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.btn .btn-white {
+    color:blue;   
+}
+
+.btn .btn-blue {
+    color: white;
+}
+
+.btn .btn-blue a {
+    background-color: blue;
+}
