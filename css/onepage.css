@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.block {
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 1200px ;
+    margin: 0 auto;
+}
+
+.block-header {
+    background-color: orange;
+
+}
+
+.header .logo {
+    float: left;
+
+}
+
+.header .menu {
+    float: right;
+}
+.header h1 {
+    font-family: 'Dancing Script', cursive;
+    line-height: 3;
+}
+
+.header li {
+   display: inline-flex; 
+}
+
+.header li a {
+    color:#0a0a0a;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.grid-container {
+    display: flex;
+    float: left;
+    width: 100%;
+}
+
+.block-slider {
+    background-color: orange;
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.anh img {
+    max-width: 100%;
+}
+.chu {
+    width: 300px;
+}
+.chu h1 {
+    max-width: 100%;
+    word-wrap: break-word;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 60px;
+    color: white;
+}
+.anh {
+    width: calc(100% - 300px);
+}
+
+.block-body {
+    background-color: white;
+    padding-top: 30px ;
+    padding-bottom: 30PX;
+}
+
+.card {
+    text-align: center;
+    }
+
+.card img {
+    width: 10%;
+}
+
+.block-slogan {
+    background-color: green;
+    padding: 20px 0;
+}
+
+.slogan h1 {
+
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .slogan p {
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+ }
+
+ .block-footer {
+    background-color: green;
+    padding: 20px 0;
+    text-align: center;
+ }
+
+ .footer li {
+
+    display: inline-block
+ }
+
+ .footer li a {
+
+    color:white;
+    text-decoration: none;
+    padding: 6px 12px;
+
+ }
